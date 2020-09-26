@@ -1,0 +1,99 @@
+:root{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0 auto;
+  overflow: auto;
+}
+
+/*-----------------------------Main-----------------------------------*/
+
+.header{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  padding: 0.1px 0.1px;
+  text-align: center;
+  color: #313eff;
+}
+
+.contenedor-servicios{
+  padding: 0.1px;
+  width: 100%;
+  background-color: #8feeff2c;
+}
+
+.info-services{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 86%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.services-title{
+  text-align: left;
+}
+
+  .services-title h2{
+    font-size: 30px;
+  }
+
+    .h2-son{
+      font-size: 20px;
+    }
+
+
+
+
+
+/* --------------------Footer-------------------------*/
+footer{
+  width: 100%;
+  background-color:#4E4E4E;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.1px;
+}
+
+.line{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 2px;
+  background: #ffffff;
+  margin-bottom: 1%;
+}
+
+.line2{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 2px;
+  background: #ffffff;
+  margin-top: 1%;
+}
+
+.social-media{
+  width: 100%;
+}
+
+.social-media-icon{
+  display: inline-block;
+  margin-left: 20px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.social-media-icon:hover{
+  background: #ffffff;
+  color: #000000;
+}
+
+.social-media-icon i{
+  font-size: 30px;
+  line-height: 60px;
+}

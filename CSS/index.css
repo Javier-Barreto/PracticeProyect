@@ -1,0 +1,231 @@
+:root{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0 auto;
+  overflow: auto;
+}
+
+/*.header{
+  padding: 1rem 0.5rem;
+
+  position: fixed;
+  right: 0;
+  left: 0;
+}
+
+  header a{
+    color: white;
+    text-decoration: none;
+  }
+
+.space{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu{
+  display: none;
+}
+
+.navigation ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+  .navigation ul li{
+    display: inline-block;
+  }
+
+    .navigation ul li a{
+      display: block;
+      padding: 0.5rem 1rem;
+      border-radius: 1px;
+    }
+
+      .navigation ul li a:hover{
+        background-color: rgba(224, 225, 253, 0.103);
+        color: #000000;
+        transition: 0.5s;
+        border-radius: 3px;
+      }
+
+@media Only screen and (max-width: 768px){
+  
+  .menu{
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    margin: 1%;
+  }
+
+  .navigation{
+    width: 30%;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+  }
+    .navigation ul{
+      display: none;
+    }
+
+    .navigation ul.show{
+      display: block;
+    }
+    
+    .navigation ul li{
+      display: block;
+    }
+      .navigation ul li a{
+        display: block;
+        padding: 0.5rem 0;
+        border-radius: 1px;
+      }
+      
+        .navigation ul li a:hover{
+          color: slategray;
+          border-radius: 3px;
+        }
+}*/
+
+
+
+
+
+
+
+/*--------------CSS APARTE-------------*/
+
+.head{
+  height: 100vh;
+  background-image: linear-gradient(to top, rgba(50, 70, 255, 0.322) 0%, rgba(49, 52, 255, 0.5) 100%), url(../IMG/Podologo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.titulo{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.subinfo{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+
+.agendarcita{
+  background-color: #FE5454;
+  border-radius: 20px;
+  border: 1px solid #FE5454;
+  padding: 12px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.agendarcita:hover{
+  background-color: #FE6161;
+  transition: 0.5s;
+}
+
+
+
+
+
+/* Footer */
+footer{
+  background-color:#4E4E4E;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.1px;
+}
+
+.line{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 2px;
+  background: #ffffff;
+  margin-bottom: 1%;
+}
+
+.line2{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 2px;
+  background: #ffffff;
+  margin-top: 1%;
+}
+
+.social-media{
+  width: 100%;
+}
+
+.social-media-icon{
+  display: inline-block;
+  margin-left: 20px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.social-media-icon:hover{
+  background: #ffffff;
+  color: #000000;
+}
+
+.social-media-icon i{
+  font-size: 30px;
+  line-height: 60px;
+}
+
+
+/*footer{
+  background-color: #3e3f9b;
+  padding-bottom: 0.1px;
+  color: #ffffff;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  margin: 0 6%;
+}
+
+.contact-us{
+  width: 30%;
+}
+
+.brand{
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.brand+p{
+  font-weight: 500;
+}
+
+.contact-info{
+  font-size: 20px;
+  color: #5e76fa;
+}*/
